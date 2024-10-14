@@ -1,0 +1,95 @@
+.homepage {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 100px; /* Add margin-top to push content below the navbar */
+}
+
+.postpage{
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 100px; 
+}
+
+.navbar {
+    background-color:#28b5e4;
+    padding: 10px;
+    text-align: center;
+    position: fixed; /* Make navbar fixed */
+    width: 100%; /* Stretch navbar across the entire width */
+    top: 0; /* Fix it to the top */
+    left: 0;
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+.nav-link {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.post-box {
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+}
+
+.post-box:hover {
+    transform: scale(1.05);
+}
+
+.post-image {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    margin: 10px auto; /* Center image horizontally and add top margin */
+    border-radius: 5px;
+    display: block; /* Ensure the image is treated as a block element for centering */
+}
+
+.post-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.post-box p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.post-box strong {
+    font-weight: bold;
+}
+
+.delete-btn {
+    background-color: #ff4d4d; /* Red color for delete */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #e60000; /* Darker red on hover */
+}
+
+

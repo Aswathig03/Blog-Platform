@@ -1,0 +1,103 @@
+/* RegisterPage.css */
+.register-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-form div {
+    margin-bottom: 15px;
+  }
+  
+  .register-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .register-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .register-form button {
+    padding: 10px;
+    background-color: #28b5e4;;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-form button:hover {
+    background-color: #1682a7;;
+  }
+
+  /* styles.css or RegisterPage.css */
+
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;          /* Full viewport height */
+    margin: 0;              /* Remove default margin */
+    background-color: #f0f0f0; /* Background color */
+  }
+  
+  form {
+    background-color: #fff; /* Background color for the form */
+    border-radius: 8px;     /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    padding: 20px;          /* Padding inside the form */
+    width: 300px;           /* Fixed width for the form */
+  }
+  
+  h2 {
+    text-align: center; /* Center the title */
+  }
+  
+  div {
+    margin-bottom: 15px; /* Spacing between input fields */
+  }
+  
+  label {
+    display: block;      /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+  }
+  
+  input {
+    width: 95%;        /* Full width for inputs */
+    padding: 8px;       /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+  }
+  
+  button {
+    width: 100%;         /* Full width for button */
+    padding: 10px;       /* Padding inside button */
+    border: none;        /* Remove border */
+    border-radius: 4px;  /* Rounded corners for button */
+    background-color: #28b5e4;; /* Button background color */
+    color: white;        /* Button text color */
+    font-size: 16px;     /* Button text size */
+    cursor: pointer;     /* Pointer cursor on hover */
+  }
+  
+  button:hover {
+    background-color: #0c617d;; /* Darker shade on hover */
+  }
+  
+  

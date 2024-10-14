@@ -1,0 +1,47 @@
+/* Navbar styles */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: -20px;
+    font-size: 20px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+/* Stick the navbar to the top of the page */
+.navbar {
+    position: fixed;  /* Fixes the navbar at the top of the page */
+    top: -10px;           /* Position it at the very top */
+    left: -30px;          /* Align it to the left edge */
+    width: 100%;      /* Stretches across the whole page */
+    background-color: #28b5e4; /* Background color */
+    border-radius: 0; /* No rounded corners */
+    padding: 10px 20px; /* Padding inside the navbar */
+    display: flex;      /* Flexbox for layout */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items vertically */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.navbar a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Space between links */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

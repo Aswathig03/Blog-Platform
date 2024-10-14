@@ -1,0 +1,42 @@
+/* Navbar.css */
+
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 16px;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navbar.css or styles.css */
+
+.navbar {
+  background-color: #28b5e4; /* Example background color */
+  border-radius: 10px; /* Adjust this value for desired roundness */
+  padding: 10px 20px; /* Add some padding */
+  display: flex; /* Flexbox to align items */
+  justify-content: space-between; /* Space out items */
+  align-items: center; /* Center items vertically */
+  margin: 10px; /* Optional: Add margin around the navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+}
+
+.navbar a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 15px; /* Space between links */
+}
+
+
